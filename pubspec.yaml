@@ -1,0 +1,80 @@
+name: sinflix
+description: "NodeLabs için case study"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  dio: ^5.8.0+1
+  shared_preferences: ^2.5.3
+  flutter_svg: ^2.2.0
+  flutter_screenutil: ^5.9.3
+  fluttertoast: ^8.2.12
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+  easy_localization: ^3.0.7+1
+  flutter_bloc: ^9.1.1
+  get_it: ^8.0.3
+  fpdart: ^1.1.1
+  toastification: ^3.0.3
+  lottie: ^3.3.1
+  talker_dio_logger: ^4.9.2
+  flutter_secure_storage: ^9.2.4
+  image_picker: ^1.1.2
+  readmore: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - asset/font/
+    - asset/image/
+    - asset/svg/
+    - asset/lang/
+    - asset/lottie/
+
+  fonts:
+    # ₺ gibi işaretler için olarak NotoSans
+    - family: NotoSans
+      fonts:
+        - asset: asset/font/NotoSans-Regular.ttf
+          weight: 400
+        - asset: asset/font/NotoSans-Medium.ttf
+          weight: 500
+        - asset: asset/font/NotoSans-SemiBold.ttf
+          weight: 600
+        - asset: asset/font/NotoSans-Bold.ttf
+          weight: 700
+        - asset: asset/font/NotoSans-ExtraBold.ttf
+          weight: 800
+
+    - family: Euclid
+      fonts:
+        - asset: asset/font/euclid-circular-a-light.ttf
+          weight: 300
+        - asset: asset/font/euclid-circular-a-regular.ttf
+          weight: 400
+        - asset: asset/font/euclid-circular-a-medium.ttf
+          weight: 500
+        - asset: asset/font/euclid-circular-a-semibold.ttf
+          weight: 600
+        - asset: asset/font/euclid-circular-a-bold.ttf
+          weight: 700
